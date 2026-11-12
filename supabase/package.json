@@ -1,0 +1,17 @@
+{
+  "name": "@wcs/db",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Database schema (migrations), seed content and database tests",
+  "type": "module",
+  "exports": {
+    "./seed/content.json": "./seed/content.json"
+  },
+  "scripts": {
+    "seed-sql": "node scripts/generate-seed-sql.mjs",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.16"
+  }
+}

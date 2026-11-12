@@ -1,0 +1,183 @@
+{
+  "siteSettings": {
+    "businessName": "Wayanad Cab Service",
+    "tagline": "Taxi, airport transfers and sightseeing across Wayanad, Kerala.",
+    "siteUrl": "https://wayanadcabservice.com",
+    "phoneE164": "+919000000000",
+    "phoneDisplay": "+91 90000 00000",
+    "whatsappE164": "+919000000000",
+    "whatsappMessage": "Hi, I'd like to book a cab in Wayanad.",
+    "email": "hello@wayanadcabservice.com",
+    "regionLabel": "Wayanad, Kerala",
+    "serviceArea": ["Kalpetta", "Sulthan Bathery", "Mananthavady", "Vythiri", "Meppadi"],
+    "addressLocality": "Wayanad",
+    "addressRegion": "Kerala",
+    "addressCountry": "IN"
+  },
+
+  "vehicleCategories": [
+    { "slug": "sedan", "name": "Sedan", "seats": 4, "luggageBags": 3, "hasAc": true, "sortOrder": 1 }
+  ],
+
+  "vehicles": [
+    {
+      "slug": "toyota-etios",
+      "category": "sedan",
+      "make": "Toyota",
+      "model": "Etios",
+      "tagline": "Roomy, reliable, made for these roads.",
+      "description": "Our cab is chosen for hill driving: a smooth ride, a big boot for holiday luggage, and air-conditioning that keeps up on warm afternoons in the plains.",
+      "bestFor": "Families & airport runs",
+      "imagePath": "fleet/etios.jpg",
+      "isFeatured": true,
+      "status": "active",
+      "sortOrder": 1
+    }
+  ],
+
+  "placeCategories": [
+    { "slug": "waterfalls", "name": "Waterfalls", "sortOrder": 1 },
+    { "slug": "lakes", "name": "Lakes & dams", "sortOrder": 2 },
+    { "slug": "treks", "name": "Treks & views", "sortOrder": 3 },
+    { "slug": "heritage", "name": "Heritage", "sortOrder": 4 },
+    { "slug": "wildlife", "name": "Wildlife & nature", "sortOrder": 5 }
+  ],
+
+  "places": [
+    {
+      "slug": "edakkal-caves", "kind": "destination", "name": "Edakkal Caves", "shortName": "Edakkal Caves",
+      "region": "Ambalavayal", "tagLabel": "Heritage", "colorFrom": "#5c6b4a", "colorTo": "#2c3a26",
+      "description": "Prehistoric rock carvings inside a natural cave high on Ambukuthi Hill.",
+      "imagePath": "destinations/edakkal-caves.jpg", "categories": ["heritage", "treks"], "sortOrder": 1
+    },
+    {
+      "slug": "banasura-sagar-dam", "kind": "destination", "name": "Banasura Sagar Dam", "shortName": "Banasura Sagar",
+      "region": "Padinjarathara", "tagLabel": "Lakes & dams", "colorFrom": "#4f8a9a", "colorTo": "#1f4552",
+      "description": "A huge earth dam with island-dotted waters, boating and wide reservoir views.",
+      "imagePath": "destinations/banasura-sagar-dam.jpg", "categories": ["lakes"], "sortOrder": 2
+    },
+    {
+      "slug": "chembra-peak", "kind": "destination", "name": "Chembra Peak", "shortName": "Chembra Peak",
+      "region": "Meppadi", "tagLabel": "Trek", "colorFrom": "#6f9b5a", "colorTo": "#24452c",
+      "description": "Wayanad's highest peak and its famous heart-shaped lake on the way up.",
+      "imagePath": "destinations/chembra-peak.jpg", "categories": ["treks"], "sortOrder": 3
+    },
+    {
+      "slug": "pookode-lake", "kind": "destination", "name": "Pookode Lake", "shortName": "Pookode Lake",
+      "region": "Vythiri", "tagLabel": "Lake", "colorFrom": "#5f9c8c", "colorTo": "#1d4a3f",
+      "description": "A freshwater lake ringed by forest, with pedal boats and an easy walking path.",
+      "imagePath": "destinations/pookode-lake.jpg", "categories": ["lakes"], "sortOrder": 4
+    },
+    {
+      "slug": "soochipara-falls", "kind": "destination", "name": "Soochipara Falls", "shortName": "Soochipara Falls",
+      "region": "Meppadi", "tagLabel": "Waterfall", "colorFrom": "#6e9fb0", "colorTo": "#22465a",
+      "description": "A three-tiered waterfall reached by a short walk through the forest.",
+      "imagePath": "destinations/soochipara-falls.jpg", "categories": ["waterfalls"], "sortOrder": 5
+    },
+    {
+      "slug": "kuruva-island", "kind": "destination", "name": "Kuruva Island", "shortName": "Kuruva Island",
+      "region": "Mananthavady", "tagLabel": "Nature", "colorFrom": "#7d9a4e", "colorTo": "#2f4a1e",
+      "description": "Bamboo-shaded river islands on the Kabini, reached by raft.",
+      "imagePath": "destinations/kuruva-island.jpg", "categories": ["wildlife"], "sortOrder": 6
+    },
+    {
+      "slug": "thirunelli-temple", "kind": "destination", "name": "Thirunelli Temple", "shortName": "Thirunelli",
+      "region": "Thirunelli", "tagLabel": "Heritage", "colorFrom": "#a5814c", "colorTo": "#4a3518",
+      "description": "An ancient Vishnu temple set deep in the Brahmagiri hills.",
+      "imagePath": "destinations/thirunelli-temple.jpg", "categories": ["heritage"], "sortOrder": 7
+    },
+    {
+      "slug": "muthanga-wildlife-sanctuary", "kind": "destination", "name": "Muthanga Wildlife Sanctuary", "shortName": "Muthanga",
+      "region": "Sulthan Bathery", "tagLabel": "Wildlife", "colorFrom": "#8a8a4a", "colorTo": "#33361a",
+      "description": "Jeep safaris through elephant country, bordering Bandipur and Mudumalai.",
+      "imagePath": "destinations/muthanga-wildlife-sanctuary.jpg", "categories": ["wildlife"], "sortOrder": 8
+    },
+    {
+      "slug": "lakkidi-viewpoint", "kind": "destination", "name": "Lakkidi Viewpoint", "shortName": "Lakkidi",
+      "region": "Lakkidi", "tagLabel": "Viewpoint", "colorFrom": "#8aa3b0", "colorTo": "#34505e",
+      "description": "The top of the Churam, with valley views and mist rolling over the road.",
+      "imagePath": "destinations/lakkidi-viewpoint.jpg", "categories": ["treks"], "sortOrder": 9
+    },
+    {
+      "slug": "meenmutty-falls", "kind": "destination", "name": "Meenmutty Falls", "shortName": "Meenmutty Falls",
+      "region": "Vaduvanchal", "tagLabel": "Waterfall", "colorFrom": "#5c8fa0", "colorTo": "#1c3d48",
+      "description": "A tall cascade at the end of a forest trek. Best after the rains.",
+      "imagePath": "destinations/meenmutty-falls.jpg", "categories": ["waterfalls"], "sortOrder": 10
+    },
+
+    { "slug": "calicut-airport", "kind": "airport", "name": "Calicut Airport", "code": "CCJ", "isTransferHub": true, "sortOrder": 101 },
+    { "slug": "kannur-airport", "kind": "airport", "name": "Kannur Airport", "code": "CNN", "isTransferHub": true, "sortOrder": 102 },
+    { "slug": "kozhikode-railway-station", "kind": "railway_station", "name": "Kozhikode Railway Station", "isTransferHub": true, "sortOrder": 103 },
+    { "slug": "mysuru", "kind": "city", "name": "Mysuru", "isTransferHub": true, "sortOrder": 104 },
+    { "slug": "bengaluru", "kind": "city", "name": "Bengaluru", "isTransferHub": true, "sortOrder": 105 },
+    { "slug": "ooty", "kind": "city", "name": "Ooty", "sortOrder": 106 },
+    { "slug": "coorg", "kind": "city", "name": "Coorg", "region": "Madikeri", "sortOrder": 107 },
+    { "slug": "kochi", "kind": "city", "name": "Kochi", "sortOrder": 108 },
+    { "slug": "kalpetta", "kind": "town", "name": "Kalpetta", "sortOrder": 201 }
+  ],
+
+  "services": [
+    {
+      "slug": "airport-railway-transfers", "title": "Airport & railway transfers", "icon": "plane",
+      "summary": "On-time pickups and drops between Wayanad and the airports, railway stations and big cities around it. Share your flight or train details and your driver will be waiting.",
+      "heroLabel": "Airport & railway pickups", "isFeatured": true, "sortOrder": 1
+    },
+    {
+      "slug": "wayanad-sightseeing", "title": "Wayanad sightseeing", "icon": "mountain",
+      "summary": "Full-day or half-day tours. Tell us what you like and we'll plan a route without backtracking.",
+      "heroLabel": "Sightseeing tours", "sortOrder": 2
+    },
+    {
+      "slug": "outstation-trips", "title": "Outstation trips", "icon": "route",
+      "summary": "Ooty, Coorg, Mysuru, Bengaluru, Kochi and beyond. One-way or round trip.",
+      "heroLabel": "Outstation trips", "sortOrder": 3
+    },
+    {
+      "slug": "resort-homestay-pickups", "title": "Resort & homestay pickups", "icon": "home",
+      "summary": "Door-to-door, even up the narrow estate roads that confuse map apps.",
+      "sortOrder": 4
+    },
+    {
+      "slug": "local-hourly-rides", "title": "Local & hourly rides", "icon": "clock",
+      "summary": "Shopping, hospital visits, family functions. Keep the cab for as long as you need it.",
+      "sortOrder": 5
+    }
+  ],
+
+  "routes": [
+    { "from": "kalpetta", "to": "kozhikode-railway-station", "boardLabel": "KOZHIKODE RLY STN", "viaNote": "via Thamarassery Churam", "durationMinutes": 150, "sortOrder": 1 },
+    { "from": "kalpetta", "to": "calicut-airport", "boardLabel": "CALICUT AIRPORT", "viaNote": "CCJ · via Thamarassery Churam", "durationMinutes": 180, "sortOrder": 2 },
+    { "from": "kalpetta", "to": "kannur-airport", "boardLabel": "KANNUR AIRPORT", "viaNote": "CNN · via Mananthavady", "durationMinutes": 180, "sortOrder": 3 },
+    { "from": "kalpetta", "to": "mysuru", "boardLabel": "MYSURU", "viaNote": "via Bandipur · night ban 9PM to 6AM", "durationMinutes": 210, "sortOrder": 4 },
+    { "from": "kalpetta", "to": "ooty", "boardLabel": "OOTY", "viaNote": "via Gudalur", "durationMinutes": 210, "sortOrder": 5 },
+    { "from": "kalpetta", "to": "coorg", "boardLabel": "COORG", "viaNote": "Madikeri · via Kutta", "durationMinutes": 240, "sortOrder": 6 },
+    { "from": "kalpetta", "to": "bengaluru", "boardLabel": "BENGALURU", "viaNote": "via Mysuru · night ban 9PM to 6AM", "durationMinutes": 390, "sortOrder": 7 },
+    { "from": "kalpetta", "to": "kochi", "boardLabel": "KOCHI", "viaNote": "via Kozhikode", "durationMinutes": 420, "sortOrder": 8 }
+  ],
+
+  "travelTips": [
+    { "title": "The Bandipur night ban", "body": "NH 766 through Bandipur, towards Mysuru and Bengaluru, is closed to most traffic from 9 PM to 6 AM. We'll time your departure around it.", "sortOrder": 1 },
+    { "title": "Monsoon months", "body": "June to September brings heavy rain and roaring waterfalls. Some spots and treks may close. Ask us what's open before you plan.", "sortOrder": 2 },
+    { "title": "Edakkal Caves", "body": "Usually closed on Mondays, and the last stretch is a steep climb. Go early to beat the queue.", "sortOrder": 3 },
+    { "title": "Chembra trek", "body": "Entry is managed by the Forest Department and is sometimes closed. Check with us a day before.", "sortOrder": 4 },
+    { "title": "Best time to visit", "body": "October to May is pleasant and mostly dry. December and January mornings are cool and misty.", "sortOrder": 5 }
+  ],
+
+  "faqs": [
+    { "question": "How do I book a cab?", "answer": "Call us or send a WhatsApp message with your pickup point, date, time and number of passengers. We'll confirm the fare and share your driver's details.", "sortOrder": 1 },
+    { "question": "Do you offer airport and railway pickups?", "answer": "Yes. We cover Calicut and Kannur airports, Kozhikode railway station, and Mysuru and Bengaluru. Share your flight or train details and your driver will be waiting when you arrive.", "sortOrder": 2 },
+    { "question": "How is the fare decided?", "answer": "It depends on the distance, the type of trip and any waiting time. We tell you the full fare before the trip, so there are no surprises at the end.", "sortOrder": 3 },
+    { "question": "How many people fit in an Etios?", "answer": "Up to 4 passengers plus the driver, with a large boot for luggage. If your group is bigger, call us and we'll help you plan.", "sortOrder": 4 },
+    { "question": "Can you plan a sightseeing day for us?", "answer": "Yes. Tell us what you enjoy (waterfalls, treks, temples, wildlife) and how much time you have. We'll suggest a route that avoids backtracking.", "sortOrder": 5 },
+    { "question": "Do you drive early in the morning or late at night?", "answer": "Yes, early and late pickups can be arranged. For Mysuru and Bengaluru trips we plan around the Bandipur night travel ban.", "sortOrder": 6 }
+  ],
+
+  "features": [
+    { "title": "Drivers from Wayanad", "body": "They know the shortcuts, the viewpoints and the best places to stop for tea.", "icon": "steering", "sortOrder": 1 },
+    { "title": "Clean, A/C cars", "body": "Washed and checked before every trip. No smoke, no smells, no surprises.", "icon": "snowflake", "sortOrder": 2 },
+    { "title": "Fare told upfront", "body": "You'll know the full fare before you get in. No haggling at the end.", "icon": "tag", "sortOrder": 3 },
+    { "title": "On time, every time", "body": "We plan around ghat traffic so you never miss a flight or train.", "icon": "stopwatch", "sortOrder": 4 },
+    { "title": "Early & late pickups", "body": "Dawn flights and late-night trains are no problem.", "icon": "moon", "sortOrder": 5 },
+    { "title": "Family friendly", "body": "Patient drivers, steady driving and stops whenever the kids need one.", "icon": "shield", "sortOrder": 6 }
+  ]
+}

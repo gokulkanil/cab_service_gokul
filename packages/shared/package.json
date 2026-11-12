@@ -1,0 +1,23 @@
+{
+  "name": "@wcs/shared",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Code shared by the website and the API: domain types, content loading",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@wcs/db": "*"
+  },
+  "peerDependencies": {
+    "@supabase/supabase-js": "^2.100.0"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "2.119.0"
+  }
+}

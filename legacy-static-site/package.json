@@ -1,0 +1,16 @@
+{
+  "name": "wayanad-cab-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page for Wayanad Cab Service (wayanadcabservice.com)",
+  "type": "module",
+  "scripts": {
+    "start": "vite --open",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --open"
+  },
+  "devDependencies": {
+    "vite": "^8.3.6"
+  }
+}

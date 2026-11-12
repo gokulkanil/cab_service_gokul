@@ -1,0 +1,29 @@
+{
+  "name": "wayanad-cab-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Wayanad Cab Service: website, backend API and database (monorepo)",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "supabase"
+  ],
+  "scripts": {
+    "dev": "concurrently --names web,api --prefix-colors green,blue \"npm:dev:web\" \"npm:dev:api\"",
+    "dev:web": "npm run dev --workspace @wcs/web",
+    "dev:api": "npm run dev --workspace @wcs/api",
+    "build": "npm run build --workspace @wcs/web --workspace @wcs/api",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "db:seed-sql": "npm run seed-sql --workspace @wcs/db"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "concurrently": "10.0.7",
+    "typescript": "5.9.3",
+    "vitest": "5.1.0"
+  }
+}

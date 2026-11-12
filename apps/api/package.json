@@ -1,0 +1,27 @@
+{
+  "name": "@wcs/api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend API: quotes, bookings, payments, webhooks (Fastify)",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "node scripts/build.mjs",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fastify/cors": "11.4.1",
+    "@fastify/helmet": "13.2.0",
+    "@fastify/rate-limit": "11.2.2",
+    "@supabase/supabase-js": "2.119.0",
+    "@wcs/shared": "*",
+    "fastify": "5.12.8",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "tsx": "4.23.15"
+  }
+}
